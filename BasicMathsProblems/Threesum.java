@@ -1,3 +1,5 @@
+package BasicMathsProblems;
+
 import java.util.*;
 
 public class Threesum {

@@ -103,22 +103,6 @@ public class AllPatterns {
 
 	}
 
-	// RIGHT ANGLE TRIANGLE PATTERN
-	static void RightAngleTrianglePattern(int n) {
-		for (int i = 0; i < 2 * n; i++) {
-			int c;
-			if (i < n) {
-				c = i + 1;
-			} else {
-				c = i - 1;
-			}
-			for (int j = 0; j < c; j++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
-	}
-
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter Number:");
@@ -138,6 +122,5 @@ public class AllPatterns {
 		System.out.println();
 		ReverseEquilateralTriangle(N);
 		System.out.println();
-		RightAngleTrianglePattern(N);
 	}
 }
